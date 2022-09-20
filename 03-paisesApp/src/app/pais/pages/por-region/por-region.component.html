@@ -10,7 +10,7 @@
 <div class="row">
     <div class="col">
         <button *ngFor="let region of regiones"
-        [class]="getClaseCss(region)"
+            ="getClaseCss(region)"
         (click)="activarREgion(region)">
             {{region | titlecase}}
         </button>
